@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    </style>
+</head>
+<body>
+    <header class="bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <div class="Heading">TO DO LIST</div>
+                </div>
+                <!--
+                <div class="col-md-6 align-self-center">
+                    <input type="text" class="form-control" id="filter" placeholder="Search tasks...">
+                </div>
+            -->
+            </div>
+        </div>
+    </header>
+    <br>
+    <div class="container mt-4">
+        <p>Welcome to the to-do list. You can organize your tasks here.</p>
+        <br>
+        <form id="form">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-sm" id="input" placeholder="Enter your task">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-success btn-sm">Add Task</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <ul class="list-group mt-3" id="items"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
